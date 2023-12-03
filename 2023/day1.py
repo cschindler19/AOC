@@ -32,8 +32,7 @@ with open("./input1.txt") as f:
         #print(line)
         line = line.lower()
 
-        #values = re.findall(r'[0-9]|oneight|eightwo|one|two|three|four|five|six|seven|eight|nine', line) 
-        values = re.findall(r'[0-9]|oneight|eightwo|one|two|three|four|five|six|seven|eight|nine', line, overlapped=True) 
+        values = re.findall(r'[0-9]|one|two|three|four|five|six|seven|eight|nine', line, overlapped=True) 
 
         #print(values)
 
